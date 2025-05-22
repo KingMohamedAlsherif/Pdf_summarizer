@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summary</title>
+</head>
+<body>
+    <h1>Summary for {{ document.title }}</h1>
+    <p><strong>Summary:</strong> {{ document.summary }}</p>
+    <a href="{% url 'upload_pdf' %}">Upload Another PDF</a>
+</body>
+</html>
